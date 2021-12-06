@@ -1,0 +1,15 @@
+main {
+  background-image: url(/assets/img/home/background.webp);
+  background-size: contain;
+  background-position: center;
+  z-index: 20000;
+  max-width: 1680px;
+  margin: 0 auto !important;
+}
+
+.background-text {
+  background-image: url(/assets/img/home/background-text.webp);
+  background-size: contain;
+  background-position: center;
+  z-index: 20000;
+}

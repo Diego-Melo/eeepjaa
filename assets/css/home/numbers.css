@@ -1,0 +1,58 @@
+.number-circle {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  background: none;
+  border: solid 3px #fff;
+  max-width: 500px;
+  width: 100%;
+  height: 250px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.number-spacing {
+  padding: 10px;
+}
+
+.number-circle img {
+  position: relative;
+  max-width: 80px;
+  display: block;
+}
+
+.numbers-heading {
+  text-shadow: 2px 3px 2px #f57c00;
+}
+
+.number-circle .number {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.numbers-container {
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.numbers-limiter {
+  height: 100%;
+  /* background-color: red; */
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .numbers-content {
+    margin: 0 auto;
+  }
+  .numbers-limiter {
+    width: 100%;
+  }
+}
